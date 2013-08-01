@@ -60,6 +60,7 @@ main(int argc, char **argv)
     /* Get program name. */
     progname = ((p = strrchr (argv[0], '/')) ? ++p : argv[0]);
 
+    //Kajal: test
     /* Command line option parse. */
     while (1) {
         int opt;
